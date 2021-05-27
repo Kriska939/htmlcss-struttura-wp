@@ -55,22 +55,16 @@ main {
 
 .main_sidebar {
     height: 400px;
-    width: calc(20% - 15px);
+    width: calc(20% - 20px);
     
-}
-
-.sidebar1 {
-    margin-right: 15px;
-}
-
-.sidebar2 {
-    margin-left: 15px;
 }
 
 #main_content {
     height: 400px; 
     width: 60%;
+    margin: 0 20px;
 }
+
 
 /* FOOTER */
 
