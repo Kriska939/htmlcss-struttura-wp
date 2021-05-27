@@ -24,3 +24,50 @@ nav {
     background-color: #e1d67a;
     margin-bottom: 20px;
 }
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.float {
+    float: left;
+}
+
+/* MAIN */
+
+main {
+    background-color: #0685f8;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#main_header {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.blue_bg {
+    background-color: #abcfe7;
+}
+
+.main_sidebar {
+    height: 400px;
+    width: calc(20% - 15px);
+    
+}
+
+.sidebar1 {
+    margin-right: 15px;
+}
+
+.sidebar2 {
+    margin-left: 15px;
+}
+
+#main_content {
+    height: 400px; 
+    width: 60%;
+}
+
