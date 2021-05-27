@@ -16,7 +16,8 @@ body {
 nav {
     height: 100px;
     background-color: #e579e6;
-    margin-bottom: 20px;
+    margin: 20px 0;
+    
 }
 
 #header_content {
@@ -71,3 +72,10 @@ main {
     width: 60%;
 }
 
+/* FOOTER */
+
+footer {
+    height: 50px;
+    background-color: #8801fe;
+    margin-bottom: 20px;
+}
